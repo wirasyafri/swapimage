@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1061870927079",
+    "firebase_url": "https://swapimage-b1b30.firebaseio.com",
+    "project_id": "swapimage-b1b30",
+    "storage_bucket": "swapimage-b1b30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061870927079:android:f028d57ead513344",
+        "android_client_info": {
+          "package_name": "com.ti4e.wira.swapimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061870927079-ikqm1hhfvqt8lk4r50vvf4dgh8ut385e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ti4e.wira.swapimage",
+            "certificate_hash": "ceb79eaacfffd8541956528508df9a911d3698d5"
+          }
+        },
+        {
+          "client_id": "1061870927079-ld9g35hqq7at09t5kbaj5s4673forfdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAahEaWrmUwPyjubdnDV7kq6XerUx78L6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061870927079-ld9g35hqq7at09t5kbaj5s4673forfdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
