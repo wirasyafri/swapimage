@@ -16,9 +16,17 @@ public class Nabi {
                     "Yakni makhluk yang satu dengan yang lain saling menggantikan. Demikianlah Allah Subhanahu wa Ta’ala memberitahukan kepada para malaikat tentang penciptaan Adam sebagaimana Dia memberitahukan perkara besar sebelum terwujud.\n" +
                     "\n" +
                     "\n" +
-                    "\n" ,R.drawable.sasd)
+                    "\n" ,R.drawable.foto),
+            new Nabi("1. Nabi Adam","Nabi pertama " +
+            "\nAllah Subhanahu wa Ta’ala memberitahukan kepada para malaikat tentang penciptaan Adam ‘alaihis salam, Dia berfirman:\n" +
+            "\n" +
+            "“Sesungguhnya aku hendak menjadikan seorang khalifah di muka bumi.” (QS. Al Baqarah: 30)\n" +
+            "\n" +
+            "Yakni makhluk yang satu dengan yang lain saling menggantikan. Demikianlah Allah Subhanahu wa Ta’ala memberitahukan kepada para malaikat tentang penciptaan Adam sebagaimana Dia memberitahukan perkara besar sebelum terwujud.\n" +
+            "\n" +
+            "\n" +
+            "\n" ,R.drawable.smile)
     };
-
     private Nabi(String name, String description, int gambar) {
         this.nama_nabi = name;
         this.deskripsi = description;

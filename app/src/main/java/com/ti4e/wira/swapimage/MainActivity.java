@@ -16,12 +16,6 @@ public class MainActivity extends AppCompatActivity implements NabiListFragment.
         setContentView(R.layout.activity_main);
 
     }
-
-//    public void onShowDetails(View view){
-//        Intent intent = new Intent(this, DetailActivity.class);
-//        startActivity(intent);
-//    }
-
     public void itemClicked(long id)
     {
         View fragmenDetail = findViewById(R.id.detailingFrag);
@@ -30,10 +24,9 @@ public class MainActivity extends AppCompatActivity implements NabiListFragment.
             NabiDetailFragment deta = new NabiDetailFragment();
 
             FragmentTransaction fragTrans = getSupportFragmentManager().beginTransaction();
-            deta.setResep(id);
+            deta.setImgs(id);
             fragTrans.replace(R.id.detailingFrag,deta);
             fragTrans.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-            //fragTrans.addToBackStack(null);
             fragTrans.commit();
         }
 

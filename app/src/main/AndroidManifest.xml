@@ -5,6 +5,7 @@
     <meta-data
         android:name="com.google.android.gms.vision.DEPENDENCIES"
         android:value="face" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +23,9 @@
         </activity>
         <activity
             android:name=".DetailActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".MainActi"
             android:theme="@style/AppTheme2" />
         <activity android:name=".MainActivity"
             android:theme="@style/AppTheme2"></activity>

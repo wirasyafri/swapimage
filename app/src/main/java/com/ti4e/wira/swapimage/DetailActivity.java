@@ -11,7 +11,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
         NabiDetailFragment frag = (NabiDetailFragment) getSupportFragmentManager().findFragmentById(R.id.detailFrag);
         Bundle b = getIntent().getExtras();
-        frag.setResep(b.getLong("id"));
+        frag.setImgs(b.getLong("id"));
         //frag.setResep(1);
     }
 }
